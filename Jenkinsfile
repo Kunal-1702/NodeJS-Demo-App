@@ -45,7 +45,7 @@ pipeline {
                 script {
                     // Deploy script or commands can be added here
                     bat 'echo Deploying the application...'
-                    //bat 'npm start'
+                    bat 'npm start'
                     //bat 'node server.js'
                     bat 'start /B node server.js'
                     sleep 30
